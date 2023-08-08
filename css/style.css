@@ -2,6 +2,9 @@
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+html, body {
+    scroll-behavior: smooth;
+}
 .container{
     background-color: aqua;
 }
