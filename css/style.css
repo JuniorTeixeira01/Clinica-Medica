@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    background-color: aqua;
+}
+.container-topo{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-topo_links{
+    width: 300px;
+    margin-left: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-topo_links a{
+    color: #fff;
+    text-decoration:none ;
+}
+.container-topo_links a:hover{
+    color: rgb(97, 93, 93);
+}
+/************* CONTAINER TOPO ********************************/
+.container-conteudo_imagem-fundo{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/recepcao.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+.container-conteudo_titulo{
+    max-width: 1024px;
+    height: 100%;
+    margin: 0 0 0 10%;
+    position: absolute;
+    
+}
+.container-conteudo_titulo h1{
+    margin-top: 15vh;
+    width: 350px;
+    font-size: 20px;
+    color: #fff;
+}
+.container-conteudo_informacoes{
+    max-width: 1024px;
+    margin: 0 0 0 10%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container-conteudo_subtitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(65, 61, 61);
+}
+.container-conteudo_subtitulo h2{
+    margin-top: 30px;
+}
+.container-conteudo_subtitulo p{
+    width: 580px;
+    text-align: center;
+    margin-top: 20px;
+}
+.container-conteudo_imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(65, 61, 61) ;
+}
+.container-conteudo_imagem div ul {
+    padding-top: 20px;
+}
+.container-conteudo_cards{
+    max-width: 1024px;
+    margin: 0 0 0 13%;
+}
+.container-conteudo_cards-cards{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.container-conteudo_cards-cards figure{
+    box-shadow: 10px 10px 5px gray;
+}
+.container-conteudo_cards-cards figure figcaption{
+    padding-top: 10px;
+    color: rgb(65, 61, 61)  ;
+}
+.container-conteudo_cards-cards figure img{
+    width: 300px;
+    height: 200px;
+}
+.container-conteudo_cards a{
+    color: #fff;
+    background-color: aqua;
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+/************ CONTAINER CONTEÚDO *************************/
+.container-rodape{
+    background-color: rgb(8, 99, 99);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.container-rodape div{
+    line-height: 30px;
+    color: #fff;
+}
